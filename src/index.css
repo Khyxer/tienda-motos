@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  font-family: "Archivo", serif;
+}
+
+.animation-nav {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  padding: 0.5rem;
+}
+
+.animation-nav:hover::before {
+  right: 0;
+}
+.animation-nav::before {
+  z-index: -1;
+  content: "";
+  transition: all 0.3s;
+  bottom: 0;
+  right: 100%;
+  width: 100%;
+  position: absolute;
+  height: 10%;
+  background-color: #2171b7;
+}
+
+.animation-ease-in-out {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.animation-ease-in-out:hover {
+  color: white;
+}
+
+.animation-ease-in-out:hover::before {
+  transform: translate(-50%, -50%) scale(3);
+}
+
+.animation-ease-in-out::before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  transition: all 0.3s;
+  background-color: var(--bg-color, black);
+  border-radius: 100%;
+  left: 50%;  /* Centrado horizontal */
+  top: 50%;   /* Centrado vertical */
+  transform: translate(-50%, -50%) scale(0); /* Centrado preciso */
+  width: 90px;  /* Tamaño inicial más pequeño */
+  height: 90px; /* Tamaño inicial más pequeño */
+}
+
+.animation-ease-in {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.animation-ease-in:hover {
+  color: #017ce1;
+}
+
+.animation-ease-in:hover::before {
+  transform: translate(-50%, -50%) scale(0);
+}
+.animation-ease-in::before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  transition: all 0.3s;
+  background-color: var(--bg-color, #017ce1);
+  border-radius: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(3);
+  width: 100px;
+  height: 100px;
+}
