@@ -8,7 +8,7 @@ const productos = [
     nombre: "Llantas",
     descripcion:
       "Llantas de alta calidad diseñadas para ofrecerte un rendimiento excepcional en todo tipo de terreno. Con nuestra selección de llantas, tendrás una mayor durabilidad, tracción y seguridad en cada viaje. ¡No pongas en riesgo tu experiencia sobre dos ruedas, equipa tu moto con las mejores llantas!",
-    imagen: "/public/productos/llantas.webp",
+    imagen: "/productos/llantas.webp",
     precio: "$ 300.000",
     stock: 0,
   },
@@ -17,7 +17,7 @@ const productos = [
     nombre: "Aceite",
     descripcion:
       "Mantén tu motor en perfectas condiciones con nuestros aceites premium para motos. Diseñados para lubricar, enfriar y proteger el motor de tu moto en todo tipo de condiciones. Aumenta la vida útil de tu moto con un aceite de alto rendimiento, ideal para mantenerla como nueva.",
-    imagen: "/public/productos/aceite.jpg",
+    imagen: "/productos/aceite.jpg",
     precio: "$ 60.000",
     stock: 90,
   },
@@ -26,7 +26,7 @@ const productos = [
     nombre: "Cascos",
     descripcion:
       "Protección y estilo en cada kilómetro. Nuestros cascos ofrecen la máxima seguridad y comodidad, con diseños modernos y tecnología avanzada. Ya sea que busques un casco integral, modular o jet, tenemos lo que necesitas para mantener tu cabeza segura mientras disfrutas de la carretera.",
-    imagen: "/public/productos/casco.png",
+    imagen: "/productos/casco.png",
     precio: "$ 250.000",
     stock: 5,
     rating: 5,
@@ -36,7 +36,7 @@ const productos = [
     nombre: "Guantes",
     descripcion:
       "Los guantes perfectos para tu aventura sobre dos ruedas. Confeccionados con materiales de alta resistencia, ofrecen un ajuste cómodo y una excelente protección para tus manos. Resistencia al viento, al agua y a los impactos, todo en un solo par de guantes que te acompañarán en cada ruta.",
-    imagen: "/public/productos/guantes.jpg",
+    imagen: "/productos/guantes.jpg",
     precio: "$ 120.000",
     stock: 20,
   },
