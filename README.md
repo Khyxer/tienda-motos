@@ -40,7 +40,7 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/usuario/tienda-de-motos.git
+   git clone https://github.com/Khyxer/tienda-motos.git
    cd tienda-de-motos
    ```
 2. Instala las dependencias:
@@ -100,7 +100,7 @@ Una vez que la aplicación esté en ejecución, tendras acceso a:
 ![Logo](https://github.com/Khyxer/tienda-motos/raw/main/public/vista-previa.png)
 
 
-[Ver Demo](https://tu-demo-en-vivo.com)
+[Ver Demo](https://axis-motors.netlify.app/)
 
 ## Estado del Proyecto
 
