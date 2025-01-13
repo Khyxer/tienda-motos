@@ -45,7 +45,7 @@ const motos = [
       { colorId: 3, color: "#3E3E3E" },
       { colorId: 4, color: "#1201A8" },
     ],
-    imagen: "/public/motos/r15.jpg",
+    imagen: "/motos/r15.jpg",
     precio: "$16.000.000",
     informacion:
       "La R15 es ideal para quienes buscan una moto con alto rendimiento en pista y carretera.",
@@ -63,7 +63,7 @@ const motos = [
       { colorId: 3, color: "#3E3E3E" },
       { colorId: 4, color: "#1201A8" },
     ],
-    imagen: "/public/motos/r15-v4.png",
+    imagen: "/motos/r15-v4.png",
     precio: "$17.500.000",
     informacion:
       "Versión mejorada con nuevos avances en tecnología, ideal para pilotos experimentados.",
@@ -81,7 +81,7 @@ const motos = [
       { colorId: 3, color: "#3E3E3E" },
       { colorId: 4, color: "#1201A8" },
     ],
-    imagen: "/public/motos/ns200.webp",
+    imagen: "/motos/ns200.webp",
     precio: "$14.000.000",
     informacion:
       "Moto deportiva con un motor potente y diseño aerodinámico, perfecta para viajes largos.",
@@ -98,7 +98,7 @@ const motos = [
       { colorId: 2, color: "#FF5733" },
       { colorId: 3, color: "#2C3E50" },
     ],
-    imagen: "/public/motos/yamaha_xj6_n.jpg",
+    imagen: "/motos/yamaha_xj6_n.jpg",
     precio: "$22.000.000",
     informacion:
       "Con un motor de 600cc, la XJ6 es una moto deportiva que ofrece gran confort y estabilidad.",
@@ -115,7 +115,7 @@ const motos = [
       { colorId: 2, color: "#333333" },
       { colorId: 3, color: "#7D3C98" },
     ],
-    imagen: "/public/motos/fz25-azul-claro.jpg",
+    imagen: "/motos/fz25-azul-claro.jpg",
     precio: "$13.000.000",
     informacion:
       "Ideal para quienes buscan una moto de 250cc con gran eficiencia de combustible y rendimiento.",
@@ -132,7 +132,7 @@ const motos = [
       { colorId: 2, color: "#FF6347" },
       { colorId: 3, color: "#A9A9A9" },
     ],
-    imagen: "/public/motos/ninja-300.webp",
+    imagen: "/motos/ninja-300.webp",
     precio: "$18.000.000",
     informacion:
       "Moto deportiva de 300cc, popular por su agilidad y rendimiento superior en carreteras.",
@@ -149,7 +149,7 @@ const motos = [
       { colorId: 2, color: "#006400" },
       { colorId: 3, color: "#808080" },
     ],
-    imagen: "/public/motos/CBR500RR.jpg",
+    imagen: "/motos/CBR500RR.jpg",
     precio: "$25.000.000",
     informacion:
       "Perfecta para quienes desean una moto de media cilindrada, con gran respuesta y manejabilidad.",
@@ -166,7 +166,7 @@ const motos = [
       { colorId: 2, color: "#1E90FF" },
       { colorId: 3, color: "#8A2BE2" },
     ],
-    imagen: "/public/motos/duke-390.png",
+    imagen: "/motos/duke-390.png",
     precio: "$18.500.000",
     informacion:
       "La Duke 390 es una moto compacta y deportiva, ideal para desplazamientos urbanos.",
@@ -183,7 +183,7 @@ const motos = [
       { colorId: 2, color: "#FFD700" },
       { colorId: 3, color: "#800080" },
     ],
-    imagen: "/public/motos/z900.png",
+    imagen: "/motos/z900.png",
     precio: "$30.000.000",
     informacion:
       "Moto deportiva de gran cilindrada, ideal para velocidad y maniobrabilidad en circuitos.",
@@ -200,7 +200,7 @@ const motos = [
       { colorId: 2, color: "#A52A2A" },
       { colorId: 3, color: "#556B2F" },
     ],
-    imagen: "/public/motos/mt-07.jpg",
+    imagen: "/motos/mt-07.jpg",
     precio: "$20.000.000",
     informacion:
       "Una moto versátil, con un motor de 700cc, que combina potencia y comodidad.",
@@ -217,7 +217,7 @@ const motos = [
       { colorId: 2, color: "#A52A2A" },
       { colorId: 3, color: "#B0E0E6" },
     ],
-    imagen: "/public/motos/RC-390.png",
+    imagen: "/motos/RC-390.png",
     precio: "$17.000.000",
     informacion:
       "Moto deportiva de alto rendimiento, ideal para circuitos y maniobras de precisión.",
@@ -234,7 +234,7 @@ const motos = [
       { colorId: 2, color: "#FF6347" },
       { colorId: 3, color: "#B22222" },
     ],
-    imagen: "/public/motos/fz-6.webp",
+    imagen: "/motos/fz-6.webp",
     precio: "$21.000.000",
     informacion:
       "Moto de gran cilindrada, versátil para la carretera o el circuito, con un diseño moderno.",
@@ -251,7 +251,7 @@ const motos = [
       { colorId: 2, color: "#FF4500" },
       { colorId: 3, color: "#FFD700" },
     ],
-    imagen: "/public/motos/YBR-125.jpg",
+    imagen: "/motos/YBR-125.jpg",
     precio: "$7.000.000",
     informacion:
       "Moto económica, ligera y de fácil manejo, ideal para quienes se inician en el motociclismo.",
@@ -268,7 +268,7 @@ const motos = [
       { colorId: 2, color: "#B22222" },
       { colorId: 3, color: "#000000" },
     ],
-    imagen: "/public/motos/CBR1000RR.webp",
+    imagen: "/motos/CBR1000RR.webp",
     precio: "$45.000.000",
     informacion:
       "Moto de competición, con un motor de 1000cc, diseñada para velocidad y resistencia.",
@@ -285,7 +285,7 @@ const motos = [
       { colorId: 2, color: "#0000FF" },
       { colorId: 3, color: "#8B0000" },
     ],
-    imagen: "/public/motos/H2R.jpg",
+    imagen: "/motos/H2R.jpg",
     precio: "$80.000.000",
     informacion:
       "La moto más potente de su categoría, diseñada para velocidad extrema.",
@@ -302,7 +302,7 @@ const motos = [
       { colorId: 2, color: "#000000" },
       { colorId: 3, color: "#FFD700" },
     ],
-    imagen: "/public/motos/kawasaki-ninja-h2.webp",
+    imagen: "/motos/kawasaki-ninja-h2.webp",
     precio: "$75.000.000",
     informacion:
       "Moto superdeportiva con un motor de sobrealimentado que alcanza velocidades impresionantes.",
@@ -319,7 +319,7 @@ const motos = [
       { colorId: 2, color: "#000000" },
       { colorId: 3, color: "#A9A9A9" },
     ],
-    imagen: "/public/motos/gsx-r600.webp",
+    imagen: "/motos/gsx-r600.webp",
     precio: "$32.000.000",
     informacion:
       "Deportiva, con un motor potente y un diseño que la hace ideal para circuitos.",
@@ -336,7 +336,7 @@ const motos = [
       { colorId: 2, color: "#FFFF00" },
       { colorId: 3, color: "#FF6347" },
     ],
-    imagen: "/public/motos/yamaha-fz1.jpg",
+    imagen: "/motos/yamaha-fz1.jpg",
     precio: "$25.000.000",
     informacion:
       "Moto naked con un motor de 1000cc, perfecta para quienes buscan potencia y confort.",
@@ -353,7 +353,7 @@ const motos = [
       { colorId: 2, color: "#FFFFFF" },
       { colorId: 3, color: "#000000" },
     ],
-    imagen: "/public/motos/dukati-panigale.webp",
+    imagen: "/motos/dukati-panigale.webp",
     precio: "$60.000.000",
     informacion:
       "Moto deportiva de gran rendimiento, diseñada para brindar máxima velocidad y agilidad.",
@@ -370,7 +370,7 @@ const motos = [
       { colorId: 2, color: "#FFD700" },
       { colorId: 3, color: "#A9A9A9" },
     ],
-    imagen: "/public/motos/triumph-street.jpg",
+    imagen: "/motos/triumph-street.jpg",
     precio: "$45.000.000",
     informacion:
       "Moto naked con gran versatilidad, perfecta para todo tipo de terreno.",
@@ -387,7 +387,7 @@ const motos = [
       { colorId: 2, color: "#000000" },
       { colorId: 3, color: "#FFD700" },
     ],
-    imagen: "/public/motos/BMW-S1000.jpg",
+    imagen: "/motos/BMW-S1000.jpg",
     precio: "$50.000.000",
     informacion:
       "Superdeportiva con un motor de 1000cc y un diseño innovador para velocidad extrema.",
@@ -404,7 +404,7 @@ const motos = [
       { colorId: 2, color: "#000000" },
       { colorId: 3, color: "#A52A2A" },
     ],
-    imagen: "/public/motos/Kawasaki-ZX10R.webp",
+    imagen: "/motos/Kawasaki-ZX10R.webp",
     precio: "$45.000.000",
     informacion:
       "Moto de competición con un motor de alto rendimiento, ideal para los fanáticos de la velocidad.",
@@ -421,7 +421,7 @@ const motos = [
       { colorId: 2, color: "#FFFF00" },
       { colorId: 3, color: "#0000FF" },
     ],
-    imagen: "/public/motos/honda-cb650.jpg",
+    imagen: "/motos/honda-cb650.jpg",
     precio: "$25.000.000",
     informacion:
       "Moto naked de 650cc, perfecta para viajes largos y uso urbano.",
@@ -438,7 +438,7 @@ const motos = [
       { colorId: 2, color: "#008000" },
       { colorId: 3, color: "#A52A2A" },
     ],
-    imagen: "/public/motos/ktm-390-adventure.png",
+    imagen: "/motos/ktm-390-adventure.png",
     precio: "$18.000.000",
     informacion:
       "Moto de aventura, ideal para recorrer largos trayectos en carretera y fuera de ella.",
@@ -455,7 +455,7 @@ const motos = [
       { colorId: 2, color: "#FFD700" },
       { colorId: 3, color: "#8B0000" },
     ],
-    imagen: "/public/motos/450R-Honda.webp",
+    imagen: "/motos/450R-Honda.webp",
     precio: "$22.000.000",
     informacion:
       "Moto de enduro, perfecta para quienes disfrutan de la conducción fuera de carretera.",
@@ -472,7 +472,7 @@ const motos = [
       { colorId: 2, color: "#FFD700" },
       { colorId: 3, color: "#808080" },
     ],
-    imagen: "/public/motos/herley-davidson.png",
+    imagen: "/motos/herley-davidson.png",
     precio: "$35.000.000",
     informacion:
       "Cruiser de 750cc, ideal para viajes largos con comodidad y estilo.",
@@ -489,7 +489,7 @@ const motos = [
       { colorId: 2, color: "#2F4F4F" },
       { colorId: 3, color: "#FFD700" },
     ],
-    imagen: "/public/motos/indian-scout.jpg",
+    imagen: "/motos/indian-scout.jpg",
     precio: "$38.000.000",
     informacion:
       "Cruiser clásica con gran torque y un diseño vintage impresionante.",
@@ -506,7 +506,7 @@ const motos = [
       { colorId: 2, color: "#A52A2A" },
       { colorId: 3, color: "#FFFF00" },
     ],
-    imagen: "/public/motos/moto_guzzi_v85_moto.webp",
+    imagen: "/motos/moto_guzzi_v85_moto.webp",
     precio: "$40.000.000",
     informacion:
       "Moto de aventura con motor de 850cc, ideal para todo tipo de terreno.",
