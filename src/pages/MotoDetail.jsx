@@ -82,7 +82,7 @@ const MotoDetail = () => {
         </div>
       </div>
       <div className="xl:p-28 px-2 py-28 flex items-center justify-center">
-        <video src="/public/videos/video-promo.mp4" autoPlay loop muted>
+        <video src="/videos/video-promo.mp4" autoPlay loop muted>
           Tu navegador no soporta la visualización de videos
         </video>
       </div>

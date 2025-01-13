@@ -2,7 +2,7 @@ const content = [
   {
     reverse: false,
     direction: "right",
-    imageSrc: "/public/puntos/punto1.webp",
+    imageSrc: "/puntos/punto1.webp",
     address: "Centro de Bogotá - CLL 999 # 99 - 9",
     text: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae culpa eum adipisci fugit voluptatibus ratione iste dolore perferendis. Autem labore a ducimus id officiis quas quisquam odio. Aspernatur, quia ratione.",
   },
