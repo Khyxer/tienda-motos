@@ -12,7 +12,7 @@ const motos = [
     imagen: "/public/motos/mt15_moto.png",
     precio: "$15.000.000",
     informacion:
-      "La R15 La versión 4 no es solo un ejemplo de ingeniería de alto rendimiento, sino que es perfecta para aquellos que buscan llevar su pasión al siguiente nivel, ya sea en pista o en carretera.",
+      "Un poderoso motor de 300cc, ideal para todos aquellos amantes de la velocidad",
     marca: "Yamaha",
     cilindraje: "300cc",
     tipo: "Deportiva",
@@ -67,6 +67,9 @@ const motos = [
     precio: "$17.500.000",
     informacion:
       "Versión mejorada con nuevos avances en tecnología, ideal para pilotos experimentados.",
+    marca: "Yamaha",
+    cilindraje: "300cc",
+    tipo: "Deportiva",
   },
   {
     id: 5,
@@ -82,6 +85,9 @@ const motos = [
     precio: "$14.000.000",
     informacion:
       "Moto deportiva con un motor potente y diseño aerodinámico, perfecta para viajes largos.",
+    marca: "Bajaj",
+    cilindraje: "200cc",
+    tipo: "Deportiva",
   },
   {
     id: 6,
@@ -96,6 +102,9 @@ const motos = [
     precio: "$22.000.000",
     informacion:
       "Con un motor de 600cc, la XJ6 es una moto deportiva que ofrece gran confort y estabilidad.",
+    marca: "Yamaha",
+    cilindraje: "600cc",
+    tipo: "Deportiva",
   },
   {
     id: 7,
@@ -110,6 +119,9 @@ const motos = [
     precio: "$13.000.000",
     informacion:
       "Ideal para quienes buscan una moto de 250cc con gran eficiencia de combustible y rendimiento.",
+    marca: "Yamaha",
+    cilindraje: "250cc",
+    tipo: "Deportiva",
   },
   {
     id: 8,
@@ -124,6 +136,9 @@ const motos = [
     precio: "$18.000.000",
     informacion:
       "Moto deportiva de 300cc, popular por su agilidad y rendimiento superior en carreteras.",
+    marca: "Kawasaki",
+    cilindraje: "300cc",
+    tipo: "Deportiva",
   },
   {
     id: 9,
@@ -138,6 +153,9 @@ const motos = [
     precio: "$25.000.000",
     informacion:
       "Perfecta para quienes desean una moto de media cilindrada, con gran respuesta y manejabilidad.",
+    marca: "Honda",
+    cilindraje: "500cc",
+    tipo: "Deportiva",
   },
   {
     id: 10,
@@ -152,6 +170,9 @@ const motos = [
     precio: "$18.500.000",
     informacion:
       "La Duke 390 es una moto compacta y deportiva, ideal para desplazamientos urbanos.",
+    marca: "KTM",
+    cilindraje: "390cc",
+    tipo: "Deportiva",
   },
   {
     id: 11,
@@ -166,6 +187,9 @@ const motos = [
     precio: "$30.000.000",
     informacion:
       "Moto deportiva de gran cilindrada, ideal para velocidad y maniobrabilidad en circuitos.",
+    marca: "Kawasaki",
+    cilindraje: "900cc",
+    tipo: "Deportiva",
   },
   {
     id: 12,
@@ -180,6 +204,9 @@ const motos = [
     precio: "$20.000.000",
     informacion:
       "Una moto versátil, con un motor de 700cc, que combina potencia y comodidad.",
+    marca: "Yamaha",
+    cilindraje: "700cc",
+    tipo: "Deportiva",
   },
   {
     id: 13,
@@ -194,6 +221,9 @@ const motos = [
     precio: "$17.000.000",
     informacion:
       "Moto deportiva de alto rendimiento, ideal para circuitos y maniobras de precisión.",
+    marca: "KTM",
+    cilindraje: "390cc",
+    tipo: "Deportiva",
   },
   {
     id: 14,
@@ -208,6 +238,9 @@ const motos = [
     precio: "$21.000.000",
     informacion:
       "Moto de gran cilindrada, versátil para la carretera o el circuito, con un diseño moderno.",
+    marca: "Yamaha",
+    cilindraje: "600cc",
+    tipo: "Deportiva",
   },
   {
     id: 15,
@@ -222,6 +255,9 @@ const motos = [
     precio: "$7.000.000",
     informacion:
       "Moto económica, ligera y de fácil manejo, ideal para quienes se inician en el motociclismo.",
+    marca: "Yamaha",
+    cilindraje: "125cc",
+    tipo: "Urban",
   },
   {
     id: 16,
@@ -236,6 +272,9 @@ const motos = [
     precio: "$45.000.000",
     informacion:
       "Moto de competición, con un motor de 1000cc, diseñada para velocidad y resistencia.",
+    marca: "Honda",
+    cilindraje: "1000cc",
+    tipo: "Deportiva",
   },
   {
     id: 17,
@@ -250,6 +289,9 @@ const motos = [
     precio: "$80.000.000",
     informacion:
       "La moto más potente de su categoría, diseñada para velocidad extrema.",
+    marca: "Kawasaki",
+    cilindraje: "1000cc",
+    tipo: "Deportiva",
   },
   {
     id: 18,
@@ -264,6 +306,9 @@ const motos = [
     precio: "$75.000.000",
     informacion:
       "Moto superdeportiva con un motor de sobrealimentado que alcanza velocidades impresionantes.",
+    marca: "Kawasaki",
+    cilindraje: "1000cc",
+    tipo: "Deportiva",
   },
   {
     id: 19,
@@ -278,6 +323,9 @@ const motos = [
     precio: "$32.000.000",
     informacion:
       "Deportiva, con un motor potente y un diseño que la hace ideal para circuitos.",
+    marca: "Suzuki",
+    cilindraje: "600cc",
+    tipo: "Deportiva",
   },
   {
     id: 20,
@@ -292,6 +340,9 @@ const motos = [
     precio: "$25.000.000",
     informacion:
       "Moto naked con un motor de 1000cc, perfecta para quienes buscan potencia y confort.",
+    marca: "Yamaha",
+    cilindraje: "1000cc",
+    tipo: "Naked",
   },
   {
     id: 21,
@@ -306,6 +357,9 @@ const motos = [
     precio: "$60.000.000",
     informacion:
       "Moto deportiva de gran rendimiento, diseñada para brindar máxima velocidad y agilidad.",
+    marca: "Ducati",
+    cilindraje: "955cc",
+    tipo: "Deportiva",
   },
   {
     id: 22,
@@ -320,6 +374,9 @@ const motos = [
     precio: "$45.000.000",
     informacion:
       "Moto naked con gran versatilidad, perfecta para todo tipo de terreno.",
+    marca: "Triumph",
+    cilindraje: "765cc",
+    tipo: "Naked",
   },
   {
     id: 23,
@@ -334,6 +391,9 @@ const motos = [
     precio: "$50.000.000",
     informacion:
       "Superdeportiva con un motor de 1000cc y un diseño innovador para velocidad extrema.",
+    marca: "BMW",
+    cilindraje: "1000cc",
+    tipo: "Deportiva",
   },
   {
     id: 24,
@@ -348,6 +408,9 @@ const motos = [
     precio: "$45.000.000",
     informacion:
       "Moto de competición con un motor de alto rendimiento, ideal para los fanáticos de la velocidad.",
+    marca: "Kawasaki",
+    cilindraje: "1000cc",
+    tipo: "Deportiva",
   },
   {
     id: 25,
@@ -362,6 +425,9 @@ const motos = [
     precio: "$25.000.000",
     informacion:
       "Moto naked de 650cc, perfecta para viajes largos y uso urbano.",
+    marca: "Honda",
+    cilindraje: "650cc",
+    tipo: "Naked",
   },
   {
     id: 26,
@@ -376,6 +442,9 @@ const motos = [
     precio: "$18.000.000",
     informacion:
       "Moto de aventura, ideal para recorrer largos trayectos en carretera y fuera de ella.",
+    marca: "KTM",
+    cilindraje: "390cc",
+    tipo: "Aventura",
   },
   {
     id: 27,
@@ -390,6 +459,9 @@ const motos = [
     precio: "$22.000.000",
     informacion:
       "Moto de enduro, perfecta para quienes disfrutan de la conducción fuera de carretera.",
+    marca: "Honda",
+    cilindraje: "450cc",
+    tipo: "Enduro",
   },
   {
     id: 28,
@@ -404,6 +476,9 @@ const motos = [
     precio: "$35.000.000",
     informacion:
       "Cruiser de 750cc, ideal para viajes largos con comodidad y estilo.",
+    marca: "Harley-Davidson",
+    cilindraje: "750cc",
+    tipo: "Cruiser",
   },
   {
     id: 29,
@@ -418,6 +493,9 @@ const motos = [
     precio: "$38.000.000",
     informacion:
       "Cruiser clásica con gran torque y un diseño vintage impresionante.",
+    marca: "Indian",
+    cilindraje: "999cc",
+    tipo: "Cruiser",
   },
   {
     id: 30,
@@ -432,6 +510,9 @@ const motos = [
     precio: "$40.000.000",
     informacion:
       "Moto de aventura con motor de 850cc, ideal para todo tipo de terreno.",
+    marca: "Moto Guzzi",
+    cilindraje: "850cc",
+    tipo: "Aventura",
   },
 ];
 

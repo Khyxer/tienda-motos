@@ -10,8 +10,7 @@ import content from "../data/PuntosAtencionData";
 const PagePuntosAtencion = () => {
   return (
     <>
-      <Header />
-      <div className="pt-[5vh] md:pt-[7vh] py-16 overflow-hidden">
+      <div className=" pb-16 overflow-hidden">
         <h1 className="font-black text-3xl sm:text-5xl py-16 text-center">
           Conoce nuestros puntos de{" "}
           <span className="text-[#017CE1]">Atención</span>
@@ -40,7 +39,6 @@ const PagePuntosAtencion = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

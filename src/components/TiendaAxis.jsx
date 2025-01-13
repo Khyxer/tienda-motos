@@ -142,7 +142,7 @@ const TiendaAxis = () => {
                       {productos
                         .filter(
                           (producto) => producto.id !== selectedProduct.id
-                        ) // Filtrar el producto seleccionado
+                        ) 
                         .map((producto) => (
                           <div
                             key={producto.id}

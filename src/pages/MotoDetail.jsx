@@ -27,13 +27,8 @@ const MotoDetail = () => {
 
   return (
     <>
-      <Header />
       <div>
-        <img
-          src={banner}
-          alt=""
-          className="xl:h-[90vh] w-full object-cover pt-[5vh] md:pt-[7vh]"
-        />
+        <img src={banner} alt="" className="xl:h-[90vh] w-full object-cover" />
         <div className="bg-[#F0F0F0] w-full flex items-center justify-center">
           <img src={info} alt="" />
         </div>
@@ -69,15 +64,19 @@ const MotoDetail = () => {
               <InfoMotoMenu />
             </div>
             <div className="flex justify-evenly font-semibold gap-5">
-              <button
-                className=" animation-ease-in-out outline-none px-4 py-2 border-black border-2 rounded-full"
-                style={{ "--bg-color": "black" }}
-              >
-                COTIZAR
-              </button>
-              <button className="outline-none px-4  py-2  border-[#017CE1] text-white hover:text-[#017CE1] bg-[#017CE1] hover:bg-white duration-300 border-2 rounded-full">
-                AGENDAR CITA
-              </button>
+              <a href="/financiacion">
+                <button
+                  className=" animation-ease-in-out outline-none px-4 py-2 border-black border-2 rounded-full"
+                  style={{ "--bg-color": "black" }}
+                >
+                  COTIZAR
+                </button>
+              </a>
+              <a href="/servicio-cliente">
+                <button className="outline-none px-4  py-2  border-[#017CE1] text-white hover:text-[#017CE1] bg-[#017CE1] hover:bg-white duration-300 border-2 rounded-full">
+                  AGENDAR CITA
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -88,7 +87,6 @@ const MotoDetail = () => {
         </video>
       </div>
       <TiendaAxis />
-      <Footer />
     </>
   );
 };

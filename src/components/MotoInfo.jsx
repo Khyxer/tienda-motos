@@ -45,15 +45,19 @@ const MotoInfo = () => {
             {motoSeleccionada.precio}
           </p>
           <div className="flex justify-evenly font-semibold">
-            <button
-              className=" animation-ease-in-out outline-none px-4 py-2 border-black border-2 rounded-full"
-              style={{ "--bg-color": "black" }}
-            >
-              COTIZAR
-            </button>
-            <button className="outline-none px-4 animation-ease-in py-2  border-[#017CE1] text-white  transition-all duration-300 border-2 rounded-full">
-              AGENDAR CITA
-            </button>
+            <a href="/financiacion">
+              <button
+                className=" animation-ease-in-out outline-none px-4 py-2 border-black border-2 rounded-full"
+                style={{ "--bg-color": "black" }}
+              >
+                COTIZAR
+              </button>
+            </a>
+            <a href="/servicio-cliente">
+              <button className="outline-none px-4 animation-ease-in py-2  border-[#017CE1] text-white  transition-all duration-300 border-2 rounded-full">
+                AGENDAR CITA
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -76,12 +80,14 @@ const MotoInfo = () => {
         />
       </div>
       <div className="p-8 mb-16 flex justify-center">
-        <button
-          className=" animation-ease-in-out outline-none px-4 py-2 text-[#017CE1] font-semibold border-[#017CE1] border-2 rounded-full"
-          style={{ "--bg-color": "#017CE1" }}
-        >
-          VER MAS DETALLES
-        </button>
+        <a href="/moto/mt15">
+          <button
+            className=" animation-ease-in-out outline-none px-4 py-2 text-[#017CE1] font-semibold border-[#017CE1] border-2 rounded-full"
+            style={{ "--bg-color": "#017CE1" }}
+          >
+            VER MAS DETALLES
+          </button>
+        </a>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import suzuki from "/public/marcas/Suzuki_Motor.png";
 import yamaha from "/public/marcas/Yamaha-logo.png";
 
 const ItemImage = ({ children }) => (
-  <img className="w-[10%] object-contain" src={children}></img>
+  <img className="xl:w-[10%] w-[20%] object-contain" src={children}></img>
 );
 
 const HeroSection = () => {
@@ -16,7 +16,7 @@ const HeroSection = () => {
         <img
           src={banner}
           alt=""
-          className="xl:h-[90vh] w-full object-cover pt-[5vh] md:pt-[7vh]"
+          className="xl:h-[90vh] w-full object-cover"
         />
       </div>
       <div className="bg-[#F0F0F0] flex overflow-hidden flex-row  items-center justify-evenly">

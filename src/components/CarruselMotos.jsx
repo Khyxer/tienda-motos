@@ -65,9 +65,9 @@ function CarruselMotos() {
         className="group md:[&:has(.card:hover)_.card:not(:hover)]:opacity-50 md:[&:has(.card:hover)_.card:not(:hover)]:scale-95 md:[&:has(.card:hover)_.card:not(:hover)]:grayscale"
       >
         {motos.map((moto) => (
-          <div key={moto.id} className="px-2 py-8">
+          <div key={moto.id} className="px-2 py-8 ">
             <div
-              className="card group/item flex bg-white flex-col rounded-lg overflow-hidden cursor-pointer 
+              className="card border group/item flex bg-white flex-col rounded-lg overflow-hidden cursor-pointer 
                           transition-all duration-300 xl:min-h-[570px]
                           md:hover:scale-105 md:hover:z-10"
             >
@@ -80,7 +80,7 @@ function CarruselMotos() {
               </div>
               <div className="flex flex-col justify-around  flex-1 items-center p-2">
                 <h3>{moto.nombre}</h3>
-                <p className="text-center">{moto.informacion}</p>
+                <p className="text-center line-clamp-3 ">{moto.informacion}</p>
 
                 <div className="">
                   <a

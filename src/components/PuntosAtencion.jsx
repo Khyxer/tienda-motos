@@ -18,7 +18,7 @@ const defaultIcon = L.icon({
 L.Marker.prototype.options.icon = defaultIcon;
 
 const SelectItem = ({ children }) => (
-  <select className="outline-none p-2 lg:p-2 border-gray-500 border-2 rounded-lg w-full lg:w-[80%] text-xl text-gray-500 ">
+  <select className="outline-none  p-2 lg:p-2 border-gray-500 border xl:border-2 rounded-lg w-full lg:w-[80%] text-base lg:text-xl text-gray-500 ">
     {children}
   </select>
 );
@@ -55,11 +55,11 @@ const PuntosAtencion = () => {
 
   return (
     <>
-      <div className="bg-[#E4E4E4] px-2 py-12  lg:p-20 flex flex-col items-center gap-6 lg:gap-12">
+      <div className="bg-[#E4E4E4] py-12 lg:p-20 flex flex-col items-center gap-6 lg:gap-12">
         <h1 className="font-black text-3xl sm:text-5xl ">
           Puntos de <span className="text-[#017CE1]">Atención</span>
         </h1>
-        <div className="bg-white p-11 shadow-lg rounded-xl w-[90%] lg:w-[80%] flex flex-col lg:flex-row ">
+        <div className="bg-white p-6 lg:p-11 shadow-lg rounded-xl w-[95%] lg:w-[80%] flex flex-col lg:flex-row ">
           <div className="w-full h-48 lg:h-[550px] lg:w-[700px] lg:flex-1 z-40">
             <MapContainer
               center={position}
@@ -74,7 +74,7 @@ const PuntosAtencion = () => {
             </MapContainer>
           </div>
 
-          <div className="flex  items-center justify-center gap-4 lg:gap-8 flex-col lg:flex-1">
+          <div className="flex pt-4 items-center justify-center gap-4 lg:gap-8 flex-col lg:flex-1">
             <h1 className="font-black text-sm sm:text-4xl ">
               Filtrar Por <span className="text-[#017CE1]">Categoria</span>
             </h1>

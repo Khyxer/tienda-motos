@@ -125,12 +125,15 @@ const Footer = () => {
         <div className="p-4 flex flex-col gap-4 xl:flex-row justify-evenly items-center">
           <p className="text-[#cfcfcf] xl:w-[60%]">
             Axis Motors es una división de Axis Order y no se hace responsable
-            por plagio, estafa, crimen de guerra, trafico ilegal de brownies magicos o
-            cualquier otra demanda. Para mas información consulte los
-            <span className="text-[#017CE1] cursor-pointer hover:underline font-medium">
+            por plagio, estafa, crimen de guerra, trafico ilegal de brownies
+            magicos o cualquier otra demanda. Para mas información <span className="text-sky-600 font-semibold">(información real)</span> consulte los
+            <a
+              href="/tyc"
+              className="text-[#017CE1] cursor-pointer hover:underline font-medium"
+            >
               {" "}
               Terminos y Condiciones
-            </span>
+            </a>
           </p>
           <div className="flex text-4xl gap-5 text-[#cfcfcf]">
             <FaSquareXTwitter className="cursor-pointer rounded duration-200 hover:text-[#000000]" />
