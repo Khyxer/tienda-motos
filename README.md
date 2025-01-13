@@ -1,6 +1,6 @@
 # Axis Sports
 
-![Logo](/logo-main.svg)
+![Logo](./logo-main.svg)
 
 ![React](https://img.shields.io/badge/React-18.x-blue)
 
@@ -97,7 +97,7 @@ Una vez que la aplicación esté en ejecución, tendras acceso a:
 
 ## Vista Previa
 
-![Vista Previa](/vista-previa.png)
+![Vista Previa](./vista-previa.png)
 
 [Ver Demo](https://tu-demo-en-vivo.com)
 
