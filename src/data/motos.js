@@ -9,7 +9,7 @@ const motos = [
       { colorId: 3, color: "#3E3E3E" },
       { colorId: 4, color: "#1201A8" },
     ],
-    imagen: "/public/motos/mt15_moto.png",
+    imagen: "/motos/mt15_moto.png",
     precio: "$15.000.000",
     informacion:
       "Un poderoso motor de 300cc, ideal para todos aquellos amantes de la velocidad",
@@ -27,7 +27,7 @@ const motos = [
       { colorId: 3, color: "#3E3E3E" },
       { colorId: 4, color: "#1201A8" },
     ],
-    imagen: "/public/motos/mt-03-negra.jpg",
+    imagen: "/motos/mt-03-negra.jpg",
     precio: "$13.500.000",
     informacion:
       "Moto con motor de 300cc, perfecta para principiantes que desean iniciarse en el mundo de las motos deportivas.",
