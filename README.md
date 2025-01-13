@@ -1,6 +1,6 @@
 # Axis Sports
 
-![Logo](https://github.com/Khyxer/tienda-motos/raw/main/public/logo-main.svg)
+![Logo](https://github.com/Khyxer/tienda-motos/raw/main/public/logo-small.svg)
 
 ![React](https://img.shields.io/badge/React-18.x-blue)
 
