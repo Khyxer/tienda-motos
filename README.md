@@ -1,6 +1,6 @@
 # Axis Sports
 
-![Logo](./logo-main.svg)
+![Logo](https://github.com/Khyxer/tienda-motos/raw/main/public/logo-main.svg)
 
 ![React](https://img.shields.io/badge/React-18.x-blue)
 
@@ -97,7 +97,8 @@ Una vez que la aplicación esté en ejecución, tendras acceso a:
 
 ## Vista Previa
 
-![Vista Previa](./vista-previa.png)
+![Logo](https://github.com/Khyxer/tienda-motos/raw/main/public/vista-previa.png)
+
 
 [Ver Demo](https://tu-demo-en-vivo.com)
 
